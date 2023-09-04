@@ -1,10 +1,12 @@
-const AngryButton = () => {
+import { useState } from 'react';
+
+const AngryButton = (props) => {
+  const [anger, setAnger] = useState(0);
+
   return (
-    <button className='AngryButton'>
-      {/* When the threshold is not reached */}
-      <span>Don't click me too much!</span>
-      {/* When the threshold is reached */}
-      <span>ANGRY MODE: ACTIVATED 😠</span>
+    <button style={{ backgroundColor: `rgba(255,0,0,${anger})` }} className='AngryButton'>
+      {anger < 1 && <span>Don't click me too much! </span>}
+      {anger > 1 && <span>ANGRY MODE: ACTIVATED 😠</span>}
     </button>
   );
 };
