@@ -38,3 +38,11 @@ button {
 i {
   font-style: normal;
 }
+
+/* Dark Mode */
+.App.dark,
+.App.dark button {
+  background: #222;
+  border-color: white;
+  color: white;
+}
