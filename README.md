@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Fancy Buttons 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fancy Buttons is a simple React app that showcases dynamic styling and interactive buttons:
+- Angry Button
+- Counter Button
+- Light Switch Button
+- Text Repeater Button
 
-## Available Scripts
+## Final Product
 
-In the project directory, you can run:
+**Video of functionality:**
 
-### `npm start`
+<video src="https://user-images.githubusercontent.com/109990289/f3715e97-6c41-4818-b7c1-cb23cbfd7dfa.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+</video>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Screenshot:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+!["Screenshot"](./public/images/full-screen-view.jpg)
 
-### `npm test`
+## Purpose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was created by [me](https://github.com/kazvee) as part of my learnings at [Lighthouse Labs](https://www.lighthouselabs.ca/en/web-development-flex-program).
 
-### `npm run build`
+## A note about `create-react-app`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For larger, production-ready applications, React's official documentation and best practices now recommend other ways to [Start a New React Project](https://react.dev/learn/start-a-new-react-project)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As this was a small project to further explore React's core concepts and principles, with no plans to scale it up or customise it further, it's been bootstrapped with [Create React App](https://github.com/facebook/create-react-app) which still provides a straightforward way to quickly spin up a functional React app for learning purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fork this repository to your own GitHub account.
+- Clone your fork onto your local device.
+- Install all dependencies using the `npm i` (or `npm install`) command.
+- Start the web server using the `npm start` command. The app will be served at [http://localhost:3000](http://localhost:3000/).
+- Navigate to [http://localhost:3000](http://localhost:3000/) in your browser.
+- Start clicking some buttons! 😃
