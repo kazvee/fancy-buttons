@@ -1,3 +1,10 @@
+:root {
+  --dark-color: #24022F;
+  --font-family: 'Lobster', cursive;
+  --header-dark: #503559;
+  --light-color: #E5B8F4;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -6,29 +13,34 @@
 }
 
 .App>h1 {
+  background: var(--header-dark);
+  color: var(--light-color);
+  font-family: var(--font-family), sans-serif;
+  font-size: 42px;
+  letter-spacing: 10px;
   margin: 0;
   padding: 1em;
   text-align: center;
-  background: #333;
-  color: white;
 }
 
 section {
-  height: 100%;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
 }
 
 button {
-  margin: 1em;
+  background: white;
+  font-family: var(--font-family), sans-serif;
+  font-size: 2em;
+  letter-spacing: 3px;
+  min-height: 4em;
+  min-width: 300px;
   padding: 1em;
   width: 40%;
-  min-width: 300px;
-  font-size: 2em;
-  background: white;
 }
 
 .off i {
@@ -42,7 +54,7 @@ i {
 /* Dark Mode */
 .App.dark,
 .App.dark button {
-  background: #222;
-  border-color: white;
-  color: white;
+  background: var(--dark-color);
+  border-color: var(--light-color);
+  color: var(--light-color);
 }
